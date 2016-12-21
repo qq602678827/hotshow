@@ -1,10 +1,14 @@
-package zf.hotshow;
+package zf.hotshow.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import zf.hotshow.BaseActivity;
+import zf.hotshow.R;
 
+/**
+ * Created by Administrator on 2016/12/21.
+ */
+public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
